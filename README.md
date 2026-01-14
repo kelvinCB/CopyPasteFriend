@@ -1,71 +1,75 @@
 # 📋 CopyPasteFriend
 
-¡Hola! Bienvenido a **CopyPasteFriend**, tu nuevo mejor amigo para manejar el portapapeles. Esta es una aplicación ligera, elegante y súper útil que guarda todo lo que copias para que nunca pierdas nada.
+Hello! Welcome to **CopyPasteFriend**, your new best friend for clipboard management. This is a lightweight, elegant, and super useful application that saves everything you copy so you never lose anything.
 
 ---
 
-## 🚀 Cómo instalarlo en tu computadora (Paso a Paso)
+## 🚀 How to Install on Your Computer (Step by Step)
 
-Sigue estos pasos y lo tendrás funcionando en menos de 5 minutos.
+Follow these steps and you'll have it running in less than 5 minutes.
 
-### 1. Asegúrate de tener Node.js
-Antes de empezar, necesitas tener instalado **Node.js** (es lo que hace que la app funcione). 
-*   Ve a [nodejs.org](https://nodejs.org/) y descarga la versión que dice **"LTS"**.
-*   Instálalo como cualquier otro programa.
+### 1. Ensure You Have Node.js
+Before starting, you need to have **Node.js** installed (it's what makes the app work).
+*   Go to [nodejs.org](https://nodejs.org/) and download the version labeled **"LTS"**.
+*   Install it like any other program.
 
-### 2. Descarga el código
-Si sabes usar Git, clona el repositorio. Si no, simplemente:
-*   Haz clic en el botón verde **"Code"** arriba a la derecha.
-*   Elige **"Download ZIP"**.
-*   Descomprime el archivo en una carpeta (por ejemplo, en tu Escritorio).
+### 2. Download the Code
+If you know how to use Git, clone the repository. If not, simply:
+*   Click on the green **"Code"** button at the top right.
+*   Choose **"Download ZIP"**.
+*   Unzip the file into a folder (for example, on your Desktop).
 
-### 3. Abre una Terminal (Consola)
-*   En **Mac**: Presiona `Cmd + Espacio`, escribe "Terminal" y presiona Enter.
-*   En **Windows**: Presiona la tecla `Inicio`, escribe "PowerShell" o "CMD" y presiona Enter.
+### 3. Open a Terminal (Console)
+*   On **Mac**: Press `Cmd + Space`, type "Terminal", and press Enter.
+*   On **Windows**: Press the `Start` key, type "PowerShell" or "CMD", and press Enter.
 
-### 4. Entra a la carpeta del proyecto
-Escribe `cd` seguido de un espacio, y arrastra la carpeta que descomprimiste dentro de la terminal. Debería verse algo así:
+### 4. Enter the Project Folder
+Type `cd` followed by a space, and drag the folder you unzipped into the terminal. It should look something like this:
 ```bash
-cd /Usuarios/tu-nombre/Escritorio/CopyPasteFriend
+cd /Users/your-name/Desktop/CopyPasteFriend
 ```
-(Luego presiona **Enter**)
+(Then press **Enter**)
 
-### 5. Instala las dependencias
-Copia y pega este comando y presiona **Enter**:
+### 5. Install Dependencies
+Copy and paste this command and press **Enter**:
 ```bash
 npm install
 ```
-*Espera un momento a que terminen de descargarse las piezas de la app.*
+*Wait a moment for the app components to finish downloading.*
 
 ---
 
-## 🎮 Cómo usar la App
+## 🎮 How to Use the App
 
-### Para verla funcionando ahora mismo:
-Escribe este comando y presiona **Enter**:
+### To see it running right now:
+Type this command and press **Enter**:
 ```bash
 npm run dev
 ```
-¡Listo! La aplicación se abrirá sola.
+Ready! The application will open automatically.
 
-### Atajos de teclado mágicos:
-*   **`Cmd + Shift + V`** (en Mac) o **`Ctrl + Shift + V`** (en Windows): Muestra u oculta la ventana en cualquier momento.
-*   **`Enter`**: Pega el texto que tengas seleccionado en la lista.
-*   **`Flechas Arriba/Abajo`**: Navega por tu historial de copiado.
+### Magic Keyboard Shortcuts:
+*   **`Cmd + Shift + V`** (on Mac) or **`Ctrl + Shift + V`** (on Windows): Show or hide the window at any time.
+*   **`Enter`**: Copy the text or image selected in the list.
+*   **`Up/Down Arrows`**: Navigate through your copy history.
 
----
-
-## 🛠 Comandos útiles para desarrolladores
-
-Si quieres colaborar o jugar con el código:
-
-*   **Probar la App**: `npm run dev`
-*   **Pasar las pruebas (Tests)**: `npm test` (Para ver que todo funcione bien internamente).
-*   **Crear el instalador final**: `npm run build` (Esto creará un instalador en la carpeta `release`).
+### Screenshot Support 📸
+*   **Copy Images**: Any image copied to the clipboard will appear in the history.
+*   **Native Screenshots**: Take a screenshot with `Cmd + Shift + 5` (or 3/4) on macOS, and it will be automatically added to the app!
 
 ---
 
-## ❤️ Contribuir
-Este proyecto es **Open Source**. Si quieres mejorarlo, ¡adelante! Envía un Pull Request o abre un Issue si encuentras algún error.
+## 🛠 Useful Commands for Developers
 
-¡Disfruta de tu historial infinito! ✂️📋
+If you want to collaborate or play with the code:
+
+*   **Test the App**: `npm run dev`
+*   **Run Tests**: `npm test` (To ensure everything works well internally).
+*   **Create Final Installer**: `npm run build` (This will create an installer in the `release` folder).
+
+---
+
+## ❤️ Contributing
+This project is **Open Source**. If you want to improve it, go ahead! Send a Pull Request or open an Issue if you find any bugs.
+
+Enjoy your infinite history! ✂️📋
