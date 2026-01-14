@@ -7,5 +7,6 @@ Object.defineProperty(window, 'ipcRenderer', {
         send: vi.fn(),
         on: vi.fn(() => vi.fn()),
         removeListener: vi.fn(),
+        invoke: vi.fn().mockResolvedValue(null),
     },
 })
